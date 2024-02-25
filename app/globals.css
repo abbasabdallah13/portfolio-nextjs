@@ -2,32 +2,96 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@import url('https://fonts.cdnfonts.com/css/coco-gothic');
+
+@font-face {
+    font-family: heebo;
+    src: url("../public/fonts/Heebo-VariableFont_wght.ttf");
+  }
+  
+  @font-face {
+    font-family: CatchyMager;
+    src: url("../public/fonts/Catchy\ Mager\ Regular.ttf");
+  }
+
+
+  /* navbar css */
+ 
+  .navlinks-animation{
+    animation: appear 500ms forwards;
+    animation-delay: 2s;
+  }
+  
+  .navlinks-animation:hover{
+    animation: none !important;
+  }
+  
+  @keyframes appear{
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+  }
+
+  /* end of navbar css */
+
+  /* work section css */
+  .work-card{
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  .frontWorkCard{
+      transform: rotateY(0deg);
+      transition:1s;
+  }
+
+
+  .backWorkCard{
+      position: absolute;
+      top: 0;
+      background-color: #fff;
+      transition:1s;
+  }
+
+
+    .back-arrow{
+    width:3rem;
+    height:3rem;
+    padding:0.1rem;
+    border-radius:50%;
+    background-color:#000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    }
+
+@media screen and (min-width: 400px){
+  .back-arrow{
+    width:2rem;
+    height:2rem;  
+    margin-top: 5px;  
+  }  
+}
+
+@media screen and (min-width: 2070px) {
+  .card-responsiveness{
+    height: 480px !important;
+    max-width: 350px !important;
+  }
+}
+@media screen and (min-width: 2500px) {
+  .card-responsiveness{
+    height: 520px !important;
+    max-width: 400px !important;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+  /* end of work section css */
