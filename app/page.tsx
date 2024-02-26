@@ -33,8 +33,8 @@ export default function Home() {
   return (
     <main>
          <TawkMessengerReact
-                propertyId= {process.env.TAWK_TO_PROPERTY_ID}
-                widgetId={process.env.TAWK_TO_WIDGET_ID}/>
+                propertyId= {process.env.NEXT_PUBLIC_TAWK_TO_PROPERTY_ID}
+                widgetId={process.env.NEXT_PUBLIC_TAWK_TO_WIDGET_ID}/>
           {
             showSidebar && (
               <MobileSidebar setShowSidebar={setShowSidebar} />
