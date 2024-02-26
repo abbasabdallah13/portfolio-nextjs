@@ -18,7 +18,6 @@ const Header = () => {
       }
     }
 
-    console.log(window.innerWidth)
       window.addEventListener("scroll", scrollHeaderText)
   }, [])
   
