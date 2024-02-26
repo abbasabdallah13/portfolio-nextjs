@@ -10,7 +10,7 @@ const About = () => {
         <div className="w-4/5 lg:w-2/3 flex flex-col justify-center items-center">
             <p className="w-4/5 lg:w-2/3 text-sm sm:text-xl lg:text-base min-[2500px]:text-4xl text-justify text-white font-heebo max-lg:mt-8">
                 Hello there, I am Abbas. A full stack developer from Lebanon. With over two years of experience in front-end and back-end development, I create websites that are well-designed and built with efficient practices.
-                I have been a freelancer for almost a year. Right now, I am working on personal projects to keep up with novice technologies out there.
+                I adeptly balance between freelance endeavors for clients and personal projects to keep up with emerging technologies.
                 If interested in discussing anything, feel free to drop me a message anytime using the chat feature. I'm here round the clock. 
                 Or check other contact methods. Thank you for stopping by, I hope you have a fantastic time. 
             </p>
