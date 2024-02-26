@@ -7,6 +7,11 @@ import SocialIcons from "@/components/SocialIcons";
 import Header from "@/components/Header";
 import About from "@/components/About";
 import Work from "@/components/Work";
+import Testimonials from "@/components/Testimonials";
+import Contact from "@/components/Contact";
+import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
+import Footer from "@/components/Footer";
+
 
 export default function Home() {
   const [showSidebar, setShowSidebar] = useState<boolean>(false)
@@ -27,6 +32,9 @@ export default function Home() {
 
   return (
     <main>
+         <TawkMessengerReact
+                propertyId="65c342608d261e1b5f5d30fc"
+                widgetId="1hm1bmj2i"/>
           {
             showSidebar && (
               <MobileSidebar setShowSidebar={setShowSidebar} />
@@ -37,6 +45,9 @@ export default function Home() {
             <Header />
             <About />
             <Work />
+            <Testimonials />
+            <Contact />
+            <Footer />
             {
               socialIcons && (
                 <SocialIcons styles={"fixed left-0 top-[40%] flex-col bg-[#e2dfd4]/50 p-2"} />

@@ -95,3 +95,41 @@
 }
 
   /* end of work section css */
+
+/* start of testimonials section */
+
+  .slick-prev{
+    left: 0 !important;
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .slick-next{
+    right: 0 !important;
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .slick-prev:before, .slick-next:before{
+    color: black !important;
+    font-size: 50px !important;
+  }
+
+  .slick-slide-next{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    /* height: 100% !important; */
+  }
+
+.slick-arrow{
+  z-index: 999;
+}
+
+@media screen and (max-width: 1024px){
+  .slick-arrow{
+    display: none !important;
+  }
+}
+
+/* end of testimonials section */
