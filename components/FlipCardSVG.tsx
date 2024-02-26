@@ -79,7 +79,6 @@ function FlipCardSVG() {
                 paintOrder="stroke markers fill"
                 d="m 64.773579,91.74642 c -4.805164,0.05759 -7.040446,-0.08419 -8.795948,-1.869375 -1.309274,-1.331415 -1.618377,-3.505733 0.515342,-3.888744"
                 id="path38808"
-                sodipodiNodetypes="csc"
               />
               <path
                 fill="#2e2e2e"
@@ -92,7 +91,6 @@ function FlipCardSVG() {
                 paintOrder="stroke markers fill"
                 d="M 57.614685,84.652894 60.91751,82.321161"
                 id="path38810-6"
-                sodipodiNodetypes="cc"
               />
               <path
                 fill="#2e2e2e"
@@ -105,7 +103,6 @@ function FlipCardSVG() {
                 paintOrder="stroke markers fill"
                 d="m 58.074777,87.414386 1.954139,-1.304905 3.476047,-2.321182"
                 id="path38810-6-1"
-                sodipodiNodetypes="ccc"
               />
               <text
                 fontSize="2.11667px"
