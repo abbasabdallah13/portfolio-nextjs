@@ -16,7 +16,7 @@ const Footer = () => {
             ))
           }
           </ul>
-          <SocialIcons mr={4} />
+          <SocialIcons styles={""} />
         </div>
         <p className="text-center text-[#623e2a] mt-2">2024 - All rights reserved</p>
       </div>
