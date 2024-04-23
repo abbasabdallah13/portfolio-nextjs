@@ -1,1 +1,1 @@
-export const workCategories = ['show all','reactJS','mongoDB','NodeJS', 'sanity','Next.JS','Redux','GoogleLogin','PayPal','Stripe','Regex','Vite','Motion','tailwindCSS','SASS','ChakraUI','MUI', 'Node.JS', 'Express', 'TypeScript']
+export const workCategories = ['show all','ReactJS','mongoDB','NodeJS', 'sanity','Next.JS','Redux','GoogleLogin','PayPal','Stripe','Regex','Vite','Motion','tailwindCSS','SASS','ChakraUI','MUI', 'Node.JS', 'Express', 'TypeScript']
