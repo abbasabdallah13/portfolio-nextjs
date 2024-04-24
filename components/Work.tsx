@@ -34,7 +34,7 @@ const Work = () => {
     return (
     <div id='work' className="h-fit bg-mustard p-4">
         <h3 className="uppercase text-[22px] font-semibold text-center w-full lg:text-4xl text-gray-100">selected work</h3>
-        <p className="text-gray-100 text-sm lowercase font-medium mt-12 md:text-base ml-12 ">Filter by skill, framework, or library:</p>
+        <p className="text-gray-100 text-sm lowercase font-medium mt-12 md:text-base ml-12 ">Filter by skill, framework, or technology:</p>
         <div className="flex flex-col items-center mt-2">
           <div className="w-[90%] md:w-[75%] flex flex-wrap gap-[3px] xl:gap-2">
             <button 
