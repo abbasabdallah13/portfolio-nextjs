@@ -73,7 +73,7 @@ const Navbar: React.FC<Props> = ({ showSidebar, setShowSidebar }) => {
 
       {/* mobile chocolate menu */}
       <div 
-        className={`top-6 right-6 lg:hidden text-7xl z-[1000]  ${chocolateMenuColor === "chocolate" ? "text-[#92611e]" : "text-[#ffbd59]"} ${showNavbar ? "fixed" : "hidden"}`}
+        className={`top-6 right-6 lg:hidden text-5xl z-[1000]  ${chocolateMenuColor === "chocolate" ? "text-[#92611e]" : "text-[#ffbd59]"} ${showNavbar ? "fixed" : "hidden"}`}
         onClick={() => setShowSidebar(prev => !prev)}
       >
         <CgMenuGridR />

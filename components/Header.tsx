@@ -25,7 +25,7 @@ const Header = () => {
   return (
     <div id="home" className="relative">
       <Image className="w-screen" src={pic} alt="In front of the Magna Plaza" />
-      <div ref={headerRef} className="absolute w-full top-0 left-0 h-full lg:h-screen flex flex-col justify-start lg:justify-center items-center text-white pb-2 sm:pb-0 mt-4 sm:mt-16 lg:mt-0">
+      <div ref={headerRef} className="absolute w-full top-0 left-0 h-full lg:h-screen flex flex-col justify-center items-start lg:items-center text-white sm:mt-16 lg:mt-0">
         <p className="text-lg min-[400px]:text-xl md:text-3xl lg:text-2xl 2xl:text-4xl font-heebo">WELCOME TO</p>
         <p className="text-4xl min-[400px]:text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-[150px] 2xl:text-[180px] font-catchy-mager">Abbas Abdallah's</p>
         <p className="text-3xl min-[400px]:text-5xl md:text-7xl lg:text-7xl 2xl:text-8xl font-catchy-mager">Portfolio</p>

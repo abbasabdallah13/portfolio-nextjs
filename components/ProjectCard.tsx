@@ -72,15 +72,13 @@ const ProjectCard: React.FC<Props> = ({ work, visibleItems }) => {
             <p className="text-[10px] xl:text-[12px] min-[2500px]:text-xs leading-2">{el.description}</p>
             <div className="flex flex-col gap-y-2">
               <p className="text-[10px] lg:text-[9px] font-semibold mb-2"><span className="underline">Skills used:</span> {skills.map((el: any) => el.title).join(", ")}</p>
-              <div className="flex text-[9px]">
-                <Image src={siteLink} className="w-4 h-4" alt="www" width={10} height={10} />
-                <a href={el.siteLink} target="_blank" className="underline ml-2">visit website</a>
-                <a className="hover:underline hidden lg:block" href={el.siteLink}>:&nbsp;{el.siteLink}</a>
-              </div>
-              <div className="flex text-[9px]">
-                <Image src={gitIcon} className="w-4 h-4" alt="github icon" width={10} height={10} />
-                <a href={el.giturl} target="_blank" className="underline ml-2">check codebase</a>
-                <a className="hover:underline hidden lg:block" href={el.giturl}>:&nbsp;{el.giturl}</a>
+              <div className="flex justify-center text-[9px]">
+                <a href={el.siteLink} target="_blank" className="underline ml-2"> 
+                  <Image src={siteLink} className="w-5 h-5" alt="www" width={10} height={10} />
+                </a>
+                <a href={el.giturl} target="_blank" className="underline ml-2">
+                  <Image src={gitIcon} className="w-5 h-5" alt="github icon" width={10} height={10} />
+                </a>
               </div>
               <div className="w-full flex justify-center pb-[2px]">
                 <motion.button

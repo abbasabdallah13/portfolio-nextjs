@@ -13,12 +13,9 @@ const Testimonials = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-       
-
     }
         
-        const [testimonialsData, setTestimonialsData] = useState([]);
-
+    const [testimonialsData, setTestimonialsData] = useState([]);
 
     useEffect(() => {  
         const query = `*[_type == 'testimonials']`;
@@ -28,8 +25,8 @@ const Testimonials = () => {
     }, []);
 
     return (
-        <div id="testimonials" className="testimonials h-fit p-8 overflow-x-hidden">
-            <h1 className="inter uppercase text-[22px] lg:text-4xl font-semibold text-[#646463] text-center">TESTIMONIALS</h1>
+        <div id="testimonials" className="h-fit lg:min-h-[90vh] p-8 overflow-x-hidden">
+            <h1 className="inter text-[22px] lg:text-4xl font-semibold text-[#646463] text-center">Testimonials</h1>
             <Slider {...settings}>
                {
                 testimonialsData.map((el: any,i) => ( 
