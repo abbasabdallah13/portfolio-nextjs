@@ -33,7 +33,7 @@ export default {
         },
         {
             name: 'description',
-            title: 'Project Description or Notes to Share',
+            title: 'Description',
             type: 'string'
         },{
             name:'skillsUsed',
@@ -45,6 +45,30 @@ export default {
                 to:{type:'skills'}
                 }
             ]
+        },{
+            name: 'frontend',
+            title: 'Frontend',
+            type: 'array',
+            of: [{ type: 'string' }]
+        },{
+            name: 'backend',
+            title: 'Backend',
+            type: 'array',
+            of: [{ type: 'string' }]
+        },{
+            name: 'database',
+            title: 'Database',
+            type: 'array',
+            of: [{ type: 'string' }]
+        },{
+            name: 'deployment',
+            title: 'Deployment',
+            type: 'string'
+        },{
+            name: 'features',
+            title: 'Features',
+            type: 'array',
+            of: [{ type: 'string' }]
         }
 
     ]

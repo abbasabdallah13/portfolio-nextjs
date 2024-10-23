@@ -61,7 +61,7 @@ const Navbar: React.FC<Props> = ({ showSidebar, setShowSidebar }) => {
           {
             navlinks.map((link: string, i: number) => (
               <li key={i} className="navlink uppercase text-[#e4dfd8] hover:text-[#AFACA7] cursor-pointer inline ml-4 min-[2200px]:ml-8">
-              <a className="text-[#e4dfd8] hover:text-[#AFACA7] cursor-pointer no-underline text-lg 2xl:text-2xl min-[2200px]:text-3xl font-coco-gothic" href={"#"+link}>
+              <a className="text-[#e4dfd8] hover:text-[#AFACA7] cursor-pointer no-underline text-lg 2xl:text-2xl min-[2200px]:text-3xl font-heebo" href={"#"+link}>
                 {link}
               </a>
               </li>
